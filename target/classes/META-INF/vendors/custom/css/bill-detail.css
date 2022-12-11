@@ -1,0 +1,132 @@
+.super{
+    background: #FAFAFA;
+    color: #000 !important;
+    padding: 0 80px;
+    position: relative;
+    box-shadow: 5px 5px #888888;
+}
+.super p{
+    color: #000;
+}
+.title{
+    padding-top: 25px;
+    text-align: center;
+}
+.title p{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 15px 0;
+}
+.products{
+    margin: 50px 0;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+.products > p{
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 0;
+}
+.products > p > span{
+    color: #37B6DA;
+    font-size: 18px;
+}
+.products .top .detail::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.products .detail{
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e1e1e1;
+    line-height: 95px;
+}
+.products .detail .img{
+    float: left;
+    width: 20%;
+}
+.products .detail .img img{
+    width: 100px;
+    height: 95px;
+}
+.products .name{
+    float: left;
+    width: 40%;
+
+}
+.products .quantity{
+    float: left;
+    width: 15%;
+}
+.products .price{
+    float: right;
+    width: 25%;
+}
+.products .mid{
+    padding-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.products .mid .transport::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.products .mid .transport p:first-child, .products .bottom p:first-child{
+    float: left;
+    width: 75%;
+}
+.products .mid .transport p:last-child, .products .bottom p:last-child{
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+.products .bottom::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.products .bottom p:first-child{
+    font-size: 20px;
+}
+.products .bottom p:last-child{
+    font-weight: 600;
+    font-size: 20px;
+    color: #37B6DA;
+}
+.pay{
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+}
+.pay .info-user ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.pay .info-user ul li{
+    padding: 8px 0;
+}
+.pay .info-pay div{
+    margin-bottom: 30px;
+    margin-left: 250px;
+}
+
+.pay .info-pay h5{
+    padding-bottom: 10px;
+}
+.super .back{
+    position: absolute;
+    top: 3%;
+}
+.super .back a{
+    color: #000;
+    font-size: 18px;
+}
+.super .back a:hover{
+    color: #37B6DA;
+}
